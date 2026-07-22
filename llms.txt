@@ -1,0 +1,34 @@
+# Kimi K3 Research Library
+
+Source-first map for Kimi K3 official materials, papers, API docs, tutorials, reviews, videos, images, and community discussion.
+
+Status:
+- Official Kimi K3 launch: 2026-07-16.
+- Core official facts: 2.8T parameters, Kimi Delta Attention, Attention Residuals, native vision, 1M-token context.
+- Technical report: pending official release in this scan.
+- Full weights: scheduled by official materials for 2026-07-27; pending verification.
+- Official GitHub/Hugging Face Kimi-K3 weight repo: not found in this scan.
+
+Primary official sources:
+- Kimi K3: Open Frontier Intelligence: https://www.kimi.com/blog/kimi-k3
+- Moonshot AI homepage Kimi K3 research entry: https://www.moonshot.cn/
+- Getting started with Kimi: https://www.kimi.com/help/getting-started/agentic-chat
+- Kimi Agent overview: https://www.kimi.com/help/agent/agent-overview
+- How to choose Kimi models and modes: https://www.kimi.com/help/others/model-mode-selection
+- Kimi Websites overview: https://www.kimi.com/help/websites/websites-overview
+- Kimi API Platform homepage: https://platform.kimi.ai/
+- Kimi API Quickstart: https://platform.kimi.ai/docs/overview
+- Kimi K3 API guide: https://platform.kimi.ai/docs/guide/kimi-k3-quickstart
+- Flagship Model Kimi K3 Pricing: https://platform.kimi.ai/docs/pricing/chat-k3
+- Kimi Code model configuration: https://www.kimi.com/code/docs/en/kimi-code/models.html
+- Kimi Code What’s New: https://www.kimi.com/code/docs/en/kimi-code/whats-new.html
+
+Primary paper and architecture sources:
+- Kimi Linear: An Expressive, Efficient Attention Architecture: https://arxiv.org/abs/2510.26692
+- Attention Residuals: https://arxiv.org/abs/2603.15031
+- MoonshotAI/Attention-Residuals: https://github.com/MoonshotAI/Attention-Residuals
+- MoonshotAI/FlashKDA: https://github.com/MoonshotAI/FlashKDA
+- Hugging Face Kimi Linear collection: https://huggingface.co/moonshotai/collections
+
+Data ledger:
+- data/kimi-k3-sources.json
