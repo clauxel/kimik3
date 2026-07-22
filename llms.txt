@@ -30,5 +30,25 @@ Primary paper and architecture sources:
 - MoonshotAI/FlashKDA: https://github.com/MoonshotAI/FlashKDA
 - Hugging Face Kimi Linear collection: https://huggingface.co/moonshotai/collections
 
+Independent Kimi3.org companion pages:
+- Home: https://kimi3.org/
+- Docs: https://kimi3.org/docs/
+- Context window: https://kimi3.org/context-window/
+- API cost calculator: https://kimi3.org/api-cost-calculator/
+- Pricing: https://kimi3.org/pricing/
+- Local deployment: https://kimi3.org/local-deployment/
+- Run locally: https://kimi3.org/run-locally/
+- Hardware requirements: https://kimi3.org/hardware-requirements/
+- Benchmarks: https://kimi3.org/benchmarks/
+- Open source and open-weight status: https://kimi3.org/open-source/
+- Features: https://kimi3.org/features/
+- Tools: https://kimi3.org/tools/
+- Use cases: https://kimi3.org/use-cases/
+- Code workflows: https://kimi3.org/code/
+- Review: https://kimi3.org/review/
+- Alternatives: https://kimi3.org/alternatives/
+- Kimi K3 vs GLM 5.2: https://kimi3.org/vs/glm-5-2/
+- Blog: https://kimi3.org/blog/
+
 Data ledger:
 - data/kimi-k3-sources.json

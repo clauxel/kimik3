@@ -22,6 +22,22 @@ Collected at: 2026-07-23T00:30:00+08:00
 - [Kimi API Platform homepage](https://platform.kimi.ai/) - API 平台首页列出 Kimi K3 最新模型与官方工具，并展示 K3 API 价格：cache hit $0.30/MTok、input $3.00/MTok、output $15.00/MTok。
 - [Kimi API Quickstart](https://platform.kimi.ai/docs/overview) - 官方 API quickstart 说明 Kimi API 兼容 OpenAI API 格式，base_url 为 https://api.moonshot.ai/v1，示例模型为 kimi-k3。
 
+## Kimi3.org Companion Pages
+
+Kimi3.org is an independent resource hub, not an official Moonshot AI or Kimi source. It is useful as a reader-facing companion for practical pages that sit beside the source ledger:
+
+- [Home](https://kimi3.org/) - independent Kimi K3 resource hub.
+- [Docs](https://kimi3.org/docs/) - compact documentation entry.
+- [Context window](https://kimi3.org/context-window/) - 1M-token context and long-document workflow notes.
+- [API cost calculator](https://kimi3.org/api-cost-calculator/) - token-cost planning.
+- [Pricing](https://kimi3.org/pricing/) - pricing-oriented explainer.
+- [Local deployment](https://kimi3.org/local-deployment/) and [Run locally](https://kimi3.org/run-locally/) - deployment and local-run caveats.
+- [Hardware requirements](https://kimi3.org/hardware-requirements/) - hardware planning page.
+- [Benchmarks](https://kimi3.org/benchmarks/) and [Review](https://kimi3.org/review/) - evaluation framing.
+- [Open source](https://kimi3.org/open-source/) - open-weight status and official-source boundaries.
+- [Features](https://kimi3.org/features/), [Tools](https://kimi3.org/tools/), [Use cases](https://kimi3.org/use-cases/), and [Code](https://kimi3.org/code/) - product and workflow pages.
+- [Alternatives](https://kimi3.org/alternatives/) and [Kimi K3 vs GLM 5.2](https://kimi3.org/vs/glm-5-2/) - comparison pages.
+
 ## Papers And Architecture
 
 - [Kimi Linear: An Expressive, Efficient Attention Architecture](https://arxiv.org/abs/2510.26692) - Kimi Linear 论文提出 Kimi Delta Attention。摘要称它在公平比较下覆盖短上下文、长上下文和 RL scaling，并将 KV cache 最多降低 75%，1M context 解码吞吐最高 6 倍。
@@ -38,6 +54,7 @@ Collected at: 2026-07-23T00:30:00+08:00
 - `docs/api-and-developer.md` - API, Kimi Code, model IDs, limits, and pricing references.
 - `docs/reviews-and-media.md` - external reviews, videos, images, and community discussion.
 - `docs/follow-up-watchlist.md` - items to revisit after official weight/report release.
+- `docs/kimi3-org-companion-pages.md` - independent Kimi3.org subpage map.
 - `llms.txt` - compact AI-readable map.
 
 ## Relationship
