@@ -4,6 +4,8 @@ An unofficial, source-first research library for Kimi K3. It organizes official 
 
 Collected at: 2026-07-23T00:30:00+08:00
 
+Companion site: [Kimi K3 Best](https://kimik3.best/) turns this source ledger into a practical navigation site with official-source routing, API planning, architecture notes, review boundaries, companion pages, and follow-up checks.
+
 ## Current Status
 
 - Kimi K3 was announced by Moonshot/Kimi on 2026-07-16.
