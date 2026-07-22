@@ -1,0 +1,95 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="760" viewBox="0 0 1280 760" role="img" aria-labelledby="title desc">
+  <title id="title">Kimi K3 architecture lens</title>
+  <desc id="desc">A simplified architecture lens showing Kimi K3's public claims: KDA, Attention Residuals, MoE, native vision, 1M context, and workspace surfaces.</desc>
+  <defs>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="16" stdDeviation="22" flood-color="#0f172a" flood-opacity=".11"/>
+    </filter>
+    <linearGradient id="k" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#e6f7f0"/>
+      <stop offset="100%" stop-color="#dcecff"/>
+    </linearGradient>
+    <style>
+      .title{font:800 31px -apple-system,BlinkMacSystemFont,"Segoe UI",Arial,sans-serif;fill:#111827}
+      .sub{font:500 16px -apple-system,BlinkMacSystemFont,"Segoe UI",Arial,sans-serif;fill:#5d6976}
+      .h{font:800 21px -apple-system,BlinkMacSystemFont,"Segoe UI",Arial,sans-serif;fill:#13202b}
+      .body{font:500 15px -apple-system,BlinkMacSystemFont,"Segoe UI",Arial,sans-serif;fill:#455461}
+      .badge{font:800 13px -apple-system,BlinkMacSystemFont,"Segoe UI",Arial,sans-serif;fill:#0d4f73}
+      .note{font:600 13px -apple-system,BlinkMacSystemFont,"Segoe UI",Arial,sans-serif;fill:#687684}
+    </style>
+  </defs>
+  <rect width="1280" height="760" fill="#f6f8fb"/>
+  <rect x="62" y="58" width="1156" height="642" rx="28" fill="#fff" filter="url(#shadow)"/>
+  <text x="96" y="112" class="title">Kimi K3, read through an architecture lens</text>
+  <text x="96" y="142" class="sub">The public story is not only “2.8T parameters”; it is a stack built for long-horizon agent work.</text>
+
+  <g transform="translate(96 192)">
+    <rect width="318" height="390" rx="24" fill="url(#k)" stroke="#b8d9d5"/>
+    <text x="28" y="48" class="h">Model core</text>
+    <g transform="translate(28 78)">
+      <rect width="262" height="58" rx="16" fill="#fff" stroke="#cfe1df"/>
+      <text x="18" y="25" class="badge">2.8T total parameters</text>
+      <text x="18" y="45" class="body">3T-class open direction</text>
+    </g>
+    <g transform="translate(28 150)">
+      <rect width="262" height="58" rx="16" fill="#fff" stroke="#cfe1df"/>
+      <text x="18" y="25" class="badge">MoE sparsity</text>
+      <text x="18" y="45" class="body">16 of 896 experts active</text>
+    </g>
+    <g transform="translate(28 222)">
+      <rect width="262" height="58" rx="16" fill="#fff" stroke="#cfe1df"/>
+      <text x="18" y="25" class="badge">Kimi Delta Attention</text>
+      <text x="18" y="45" class="body">long-context efficiency path</text>
+    </g>
+    <g transform="translate(28 294)">
+      <rect width="262" height="58" rx="16" fill="#fff" stroke="#cfe1df"/>
+      <text x="18" y="25" class="badge">Attention Residuals</text>
+      <text x="18" y="45" class="body">depth-wise signal selection</text>
+    </g>
+  </g>
+
+  <g transform="translate(484 192)">
+    <rect width="318" height="390" rx="24" fill="#fbfcff" stroke="#d7e0ec"/>
+    <text x="28" y="48" class="h">Workflow surface</text>
+    <g transform="translate(28 80)">
+      <circle cx="24" cy="22" r="16" fill="#dff4ee" stroke="#21a67a"/>
+      <text x="56" y="27" class="body">1M-token context for large repositories and documents</text>
+    </g>
+    <g transform="translate(28 142)">
+      <circle cx="24" cy="22" r="16" fill="#e8efff" stroke="#6977d9"/>
+      <text x="56" y="27" class="body">Native vision for screenshots, UI loops, documents and video</text>
+    </g>
+    <g transform="translate(28 204)">
+      <circle cx="24" cy="22" r="16" fill="#fff3c5" stroke="#d9a514"/>
+      <text x="56" y="27" class="body">Kimi Code, Kimi Work, Kimi Agent and API access</text>
+    </g>
+    <g transform="translate(28 266)">
+      <circle cx="24" cy="22" r="16" fill="#fee2e2" stroke="#e05665"/>
+      <text x="56" y="27" class="body">Reasoning effort is explicit: low, high, max</text>
+    </g>
+    <text x="28" y="352" class="note">The useful unit is the whole session, not a single answer.</text>
+  </g>
+
+  <g transform="translate(872 192)">
+    <rect width="284" height="390" rx="24" fill="#fffdf6" stroke="#e4dac3"/>
+    <text x="28" y="48" class="h">Open questions</text>
+    <text x="28" y="93" class="body">Technical report</text>
+    <text x="28" y="116" class="note">architecture, training, eval details pending</text>
+    <line x1="28" y1="140" x2="256" y2="140" stroke="#eadfc7"/>
+    <text x="28" y="177" class="body">Full weights</text>
+    <text x="28" y="200" class="note">scheduled for release, still needs verification</text>
+    <line x1="28" y1="224" x2="256" y2="224" stroke="#eadfc7"/>
+    <text x="28" y="261" class="body">Hardware reality</text>
+    <text x="28" y="284" class="note">open-weight does not mean laptop-runnable</text>
+    <line x1="28" y1="308" x2="256" y2="308" stroke="#eadfc7"/>
+    <text x="28" y="345" class="body">Independent repetition</text>
+    <text x="28" y="368" class="note">benchmarks must move from launch claims to logs</text>
+  </g>
+
+  <path d="M414 386 C450 386,448 386,484 386" stroke="#9fb4c5" stroke-width="3" fill="none"/>
+  <polygon points="484,386 468,378 468,394" fill="#9fb4c5"/>
+  <path d="M802 386 C838 386,836 386,872 386" stroke="#9fb4c5" stroke-width="3" fill="none"/>
+  <polygon points="872,386 856,378 856,394" fill="#9fb4c5"/>
+
+  <text x="96" y="650" class="note">Public evidence used here: Kimi/Moonshot official blog and docs, Kimi Linear, Attention Residuals, FlashKDA, Kimi Code docs, and launch-week external reporting.</text>
+</svg>
