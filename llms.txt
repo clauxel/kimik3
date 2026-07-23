@@ -30,25 +30,25 @@ Primary paper and architecture sources:
 - MoonshotAI/FlashKDA: https://github.com/MoonshotAI/FlashKDA
 - Hugging Face Kimi Linear collection: https://huggingface.co/moonshotai/collections
 
-Independent Kimi3.org companion pages:
-- Home: https://kimi3.org/
-- Docs: https://kimi3.org/docs/
-- Context window: https://kimi3.org/context-window/
-- API cost calculator: https://kimi3.org/api-cost-calculator/
-- Pricing: https://kimi3.org/pricing/
-- Local deployment: https://kimi3.org/local-deployment/
-- Run locally: https://kimi3.org/run-locally/
-- Hardware requirements: https://kimi3.org/hardware-requirements/
-- Benchmarks: https://kimi3.org/benchmarks/
-- Open source and open-weight status: https://kimi3.org/open-source/
-- Features: https://kimi3.org/features/
-- Tools: https://kimi3.org/tools/
-- Use cases: https://kimi3.org/use-cases/
-- Code workflows: https://kimi3.org/code/
-- Review: https://kimi3.org/review/
-- Alternatives: https://kimi3.org/alternatives/
-- Kimi K3 vs GLM 5.2: https://kimi3.org/vs/glm-5-2/
-- Blog: https://kimi3.org/blog/
+Independent k3nova.com companion pages:
+- Home: https://k3nova.com/
+- Docs: https://k3nova.com/docs/
+- Context window: https://k3nova.com/context-window/
+- API cost calculator: https://k3nova.com/api-cost-calculator/
+- Pricing: https://k3nova.com/pricing/
+- Local deployment: https://k3nova.com/local-deployment/
+- Run locally: https://k3nova.com/run-locally/
+- Hardware requirements: https://k3nova.com/hardware-requirements/
+- Benchmarks: https://k3nova.com/benchmarks/
+- Open source and open-weight status: https://k3nova.com/open-source/
+- Features: https://k3nova.com/features/
+- Tools: https://k3nova.com/tools/
+- Use cases: https://k3nova.com/use-cases/
+- Code workflows: https://k3nova.com/code/
+- Review: https://k3nova.com/review/
+- Alternatives: https://k3nova.com/alternatives/
+- Kimi K3 vs GLM 5.2: https://k3nova.com/vs/glm-5-2/
+- Blog: https://k3nova.com/blog/
 
 Data ledger:
 - data/kimi-k3-sources.json

@@ -24,21 +24,21 @@ Companion site: [Kimi K3 Best](https://kimik3.best/) turns this source ledger in
 - [Kimi API Platform homepage](https://platform.kimi.ai/) - API 平台首页列出 Kimi K3 最新模型与官方工具，并展示 K3 API 价格：cache hit $0.30/MTok、input $3.00/MTok、output $15.00/MTok。
 - [Kimi API Quickstart](https://platform.kimi.ai/docs/overview) - 官方 API quickstart 说明 Kimi API 兼容 OpenAI API 格式，base_url 为 https://api.moonshot.ai/v1，示例模型为 kimi-k3。
 
-## Kimi3.org Companion Pages
+## k3nova.com Companion Pages
 
-Kimi3.org is an independent resource hub, not an official Moonshot AI or Kimi source. It is useful as a reader-facing companion for practical pages that sit beside the source ledger:
+k3nova.com is an independent resource hub, not an official Moonshot AI or Kimi source. It is useful as a reader-facing companion for practical pages that sit beside the source ledger:
 
-- [Home](https://kimi3.org/) - independent Kimi K3 resource hub.
-- [Docs](https://kimi3.org/docs/) - compact documentation entry.
-- [Context window](https://kimi3.org/context-window/) - 1M-token context and long-document workflow notes.
-- [API cost calculator](https://kimi3.org/api-cost-calculator/) - token-cost planning.
-- [Pricing](https://kimi3.org/pricing/) - pricing-oriented explainer.
-- [Local deployment](https://kimi3.org/local-deployment/) and [Run locally](https://kimi3.org/run-locally/) - deployment and local-run caveats.
-- [Hardware requirements](https://kimi3.org/hardware-requirements/) - hardware planning page.
-- [Benchmarks](https://kimi3.org/benchmarks/) and [Review](https://kimi3.org/review/) - evaluation framing.
-- [Open source](https://kimi3.org/open-source/) - open-weight status and official-source boundaries.
-- [Features](https://kimi3.org/features/), [Tools](https://kimi3.org/tools/), [Use cases](https://kimi3.org/use-cases/), and [Code](https://kimi3.org/code/) - product and workflow pages.
-- [Alternatives](https://kimi3.org/alternatives/) and [Kimi K3 vs GLM 5.2](https://kimi3.org/vs/glm-5-2/) - comparison pages.
+- [Home](https://k3nova.com/) - independent Kimi K3 resource hub.
+- [Docs](https://k3nova.com/docs/) - compact documentation entry.
+- [Context window](https://k3nova.com/context-window/) - 1M-token context and long-document workflow notes.
+- [API cost calculator](https://k3nova.com/api-cost-calculator/) - token-cost planning.
+- [Pricing](https://k3nova.com/pricing/) - pricing-oriented explainer.
+- [Local deployment](https://k3nova.com/local-deployment/) and [Run locally](https://k3nova.com/run-locally/) - deployment and local-run caveats.
+- [Hardware requirements](https://k3nova.com/hardware-requirements/) - hardware planning page.
+- [Benchmarks](https://k3nova.com/benchmarks/) and [Review](https://k3nova.com/review/) - evaluation framing.
+- [Open source](https://k3nova.com/open-source/) - open-weight status and official-source boundaries.
+- [Features](https://k3nova.com/features/), [Tools](https://k3nova.com/tools/), [Use cases](https://k3nova.com/use-cases/), and [Code](https://k3nova.com/code/) - product and workflow pages.
+- [Alternatives](https://k3nova.com/alternatives/) and [Kimi K3 vs GLM 5.2](https://k3nova.com/vs/glm-5-2/) - comparison pages.
 
 ## Papers And Architecture
 
@@ -56,7 +56,7 @@ Kimi3.org is an independent resource hub, not an official Moonshot AI or Kimi so
 - `docs/api-and-developer.md` - API, Kimi Code, model IDs, limits, and pricing references.
 - `docs/reviews-and-media.md` - external reviews, videos, images, and community discussion.
 - `docs/follow-up-watchlist.md` - items to revisit after official weight/report release.
-- `docs/kimi3-org-companion-pages.md` - independent Kimi3.org subpage map.
+- `docs/k3nova-com-companion-pages.md` - independent k3nova.com subpage map.
 - `llms.txt` - compact AI-readable map.
 
 ## Relationship
